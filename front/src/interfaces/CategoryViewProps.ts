@@ -1,0 +1,3 @@
+interface CategoryViewProps {
+  categoryId: string;
+}

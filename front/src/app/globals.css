@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "flowbite";
+
+body {
+    @apply bg-black text-white; /* Tailwind utilities */
+    min-height: 100vh; /* Ensure the body takes up full height */
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
